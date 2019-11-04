@@ -1,0 +1,6 @@
+Put on a {{itemName}}:
+{{#each itemColors as |color|}}
+    <button {{action 'putOnItem' color}} style="color:{{color}}">
+        {{color}}
+    </button>
+{{/each}}
